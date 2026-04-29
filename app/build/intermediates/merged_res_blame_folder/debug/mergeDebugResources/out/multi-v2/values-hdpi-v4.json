@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.loyalty.app-mergeDebugResources-2:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Adrian\\.gradle\\caches\\9.0.0\\transforms\\b6b9110d4e0950ee029d29e34ff48efb\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

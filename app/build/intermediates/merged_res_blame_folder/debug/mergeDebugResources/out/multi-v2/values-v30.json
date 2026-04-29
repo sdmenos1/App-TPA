@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.loyalty.app-mergeDebugResources-2:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Adrian\\.gradle\\caches\\9.0.0\\transforms\\7c225c27cd5d477318d79000cbc8dc8d\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}
