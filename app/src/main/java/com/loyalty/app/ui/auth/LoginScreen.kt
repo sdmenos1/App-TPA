@@ -28,22 +28,31 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.loyalty.app.ui.theme.*
 
+/**
+ * Pantalla de inicio de sesión y registro.
+ * Permite a los usuarios entrar a su cuenta o crear una nueva.
+ */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LoginScreen(
-    onLoginSuccess: () -> Unit,
-    viewModel: AuthViewModel = viewModel()
+    onLoginSuccess: () -> Unit, // Función que se llama cuando el usuario entra correctamente
+    viewModel: AuthViewModel = viewModel() // Gestor de la lógica de autenticación
 ) {
+    // Variables de estado para guardar lo que el usuario escribe en los campos
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
     var fullName by remember { mutableStateOf("") }
     var dni by remember { mutableStateOf("") }
+    
+    // Controla si mostramos el formulario de Login o el de Registro
     var isRegistering by remember { mutableStateOf(false) }
 
+    // Obtenemos los estados desde el ViewModel
     val loading by viewModel.loading.collectAsState()
     val error by viewModel.error.collectAsState()
     val isAuthenticated by viewModel.isAuthenticated.collectAsState()
 
+    // Si el usuario se autentica con éxito, disparamos la navegación
     LaunchedEffect(isAuthenticated) {
         if (isAuthenticated) {
             onLoginSuccess()
@@ -52,7 +61,7 @@ fun LoginScreen(
 
     Surface(
         modifier = Modifier.fillMaxSize(),
-        color = Zinc950
+        color = Zinc950 // Fondo oscuro
     ) {
         Column(
             modifier = Modifier
@@ -62,7 +71,7 @@ fun LoginScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            // Logo
+            // Logo circular con degradado y un candado
             Box(
                 modifier = Modifier
                     .size(80.dp)
@@ -84,6 +93,7 @@ fun LoginScreen(
 
             Spacer(modifier = Modifier.height(20.dp))
 
+            // Título dinámico según el modo
             Text(
                 text = if (isRegistering) "Crear Cuenta" else "Bienvenido",
                 style = MaterialTheme.typography.titleLarge,
@@ -102,11 +112,12 @@ fun LoginScreen(
 
             Spacer(modifier = Modifier.height(40.dp))
 
-            // Form
+            // Formulario de entrada de datos
             Column(
                 modifier = Modifier.fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
+                // Campos adicionales que solo se muestran si el usuario se está registrando
                 if (isRegistering) {
                     CustomTextField(
                         value = fullName,
@@ -123,6 +134,7 @@ fun LoginScreen(
                     )
                 }
 
+                // Campos comunes: Email y Contraseña
                 CustomTextField(
                     value = email,
                     onValueChange = { email = it },
@@ -141,7 +153,7 @@ fun LoginScreen(
 
                 Spacer(modifier = Modifier.height(8.dp))
 
-                // Action Button
+                // Botón de Acción (Iniciar Sesión o Registrarse)
                 Button(
                     onClick = {
                         if (isRegistering) {
@@ -168,6 +180,7 @@ fun LoginScreen(
                         contentAlignment = Alignment.Center
                     ) {
                         if (loading) {
+                            // Círculo de carga si el proceso está en curso
                             CircularProgressIndicator(color = Color.Black, modifier = Modifier.size(24.dp))
                         } else {
                             Text(
@@ -180,7 +193,7 @@ fun LoginScreen(
                     }
                 }
 
-                // Switch Button
+                // Botón para cambiar entre el modo Login y el modo Registro
                 Text(
                     text = if (isRegistering) "¿Ya tienes cuenta? Inicia sesión" else "¿No tienes cuenta? Regístrate gratis",
                     color = Amber400,
@@ -193,7 +206,7 @@ fun LoginScreen(
                 )
             }
 
-            // Error Message
+            // Si hay un error, lo mostramos en color rojo
             error?.let {
                 Text(
                     text = it,
@@ -206,13 +219,16 @@ fun LoginScreen(
     }
 }
 
+/**
+ * Componente de campo de texto personalizado con icono y estilo moderno.
+ */
 @Composable
 fun CustomTextField(
     value: String,
     onValueChange: (String) -> Unit,
     placeholder: String,
     icon: ImageVector,
-    isPassword: Boolean = false,
+    isPassword: Boolean = false, // Si es true, oculta el texto (para contraseñas)
     keyboardOptions: KeyboardOptions = KeyboardOptions.Default
 ) {
     TextField(
@@ -228,7 +244,6 @@ fun CustomTextField(
         colors = TextFieldDefaults.colors(
             focusedContainerColor = Zinc900,
             unfocusedContainerColor = Zinc900,
-            disabledContainerColor = Zinc900,
             focusedIndicatorColor = Color.Transparent,
             unfocusedIndicatorColor = Color.Transparent,
             cursorColor = Amber400,

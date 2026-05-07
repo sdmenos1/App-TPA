@@ -33,6 +33,15 @@ MERGED from [androidx.compose.ui:ui-text-android:1.7.3] C:\Users\Adrian\.gradle\
 MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\63f8c916db61fc392609d41e0f8822b8\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\c0148f92d973914434b2dd8f9bce5c9b\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\abf386f483236fa22ee91e09f33169ef\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\9524b25c3f9eea5677df0e58d4ee7fb3\transformed\barcode-scanning-17.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5a9797017a8905fa3cfb7ac37b892e90\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8781fdd0e4c20cfa987131afb348a3fd\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4c7f41aac07d89387fe45ae397dd387f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\b3444c0d3de3c286469bc30d6771d305\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4abf9bda647ddb6d2a0db08d07db7df7\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\3d9bc72297bd7867c9cbeff3c8a971e4\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
@@ -90,6 +99,11 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Adrian\.gradle\caches\9.
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fa267f4e8b12c50d4fac134621fe04a7\transformed\startup-runtime-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\ab735feeb6cd65043aa99f998edd2066\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\9fba13b99a7fb018d601f561619b27f1\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\a1f0a319ef10f77bd39ae02b8f9e8e4e\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\91ce5b9f8c7da46fa538bd96702279e6\transformed\firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\7f963403f9f1a993a2ebc80f705d2c0a\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5e2eb6331ab07279a029b2b97871300b\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\e95feed30202fdea57b32c49065713e2\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\f8a7713f076d57790c5721780aa86993\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -99,6 +113,7 @@ MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] C:\Users\Adrian\.g
 MERGED from [co.touchlab:kermit-android-debug:2.0.4] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\39b96e202e9ae5432b2cc1cd3d5c0ba2\transformed\kermit-debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\e31b69b6fe89195eeb8e0de985a68897\transformed\multiplatform-settings-debug\AndroidManifest.xml:2:1-7:12
 MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4f00d19f0b43affb14f9d7f878d71d49\transformed\kermit-core-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\f5d1ef2d6ec8cb7085b4ccd819952d50\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
 	package
 		INJECTED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -109,10 +124,16 @@ MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] C:\Users\Adrian\.gradl
 		ADDED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.CAMERA
@@ -132,6 +153,18 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\.
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\7cfd99feeb15977d7d40bd2a386e70a7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\c0148f92d973914434b2dd8f9bce5c9b\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\c0148f92d973914434b2dd8f9bce5c9b\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4c7f41aac07d89387fe45ae397dd387f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4c7f41aac07d89387fe45ae397dd387f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5ce8fbec597290e254ba7e9bd99e80fc\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5ce8fbec597290e254ba7e9bd99e80fc\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\74dc8321957817ecb3bacf885bbe9ab6\transformed\auth-kt-debug\AndroidManifest.xml:8:5-18:19
@@ -148,6 +181,12 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Adrian\.
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\2c004f077cf510a892018f6607182924\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fa267f4e8b12c50d4fac134621fe04a7\transformed\startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fa267f4e8b12c50d4fac134621fe04a7\transformed\startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\f5d1ef2d6ec8cb7085b4ccd819952d50\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\f5d1ef2d6ec8cb7085b4ccd819952d50\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
 		INJECTED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
@@ -240,6 +279,24 @@ MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.grad
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\c0148f92d973914434b2dd8f9bce5c9b\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\abf386f483236fa22ee91e09f33169ef\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\abf386f483236fa22ee91e09f33169ef\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\9524b25c3f9eea5677df0e58d4ee7fb3\transformed\barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\9524b25c3f9eea5677df0e58d4ee7fb3\transformed\barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5a9797017a8905fa3cfb7ac37b892e90\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5a9797017a8905fa3cfb7ac37b892e90\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8781fdd0e4c20cfa987131afb348a3fd\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8781fdd0e4c20cfa987131afb348a3fd\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4c7f41aac07d89387fe45ae397dd387f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4c7f41aac07d89387fe45ae397dd387f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\b3444c0d3de3c286469bc30d6771d305\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\b3444c0d3de3c286469bc30d6771d305\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4abf9bda647ddb6d2a0db08d07db7df7\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
@@ -354,6 +411,16 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\ab735feeb6cd65043aa99f998edd2066\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\9fba13b99a7fb018d601f561619b27f1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\9fba13b99a7fb018d601f561619b27f1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\a1f0a319ef10f77bd39ae02b8f9e8e4e\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\a1f0a319ef10f77bd39ae02b8f9e8e4e\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\91ce5b9f8c7da46fa538bd96702279e6\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\91ce5b9f8c7da46fa538bd96702279e6\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\7f963403f9f1a993a2ebc80f705d2c0a\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\7f963403f9f1a993a2ebc80f705d2c0a\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5e2eb6331ab07279a029b2b97871300b\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5e2eb6331ab07279a029b2b97871300b\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\e95feed30202fdea57b32c49065713e2\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
@@ -372,6 +439,8 @@ MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.2.0] C:\Users\
 MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.2.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\e31b69b6fe89195eeb8e0de985a68897\transformed\multiplatform-settings-debug\AndroidManifest.xml:5:5-44
 MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4f00d19f0b43affb14f9d7f878d71d49\transformed\kermit-core-debug\AndroidManifest.xml:5:5-44
 MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\4f00d19f0b43affb14f9d7f878d71d49\transformed\kermit-core-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\f5d1ef2d6ec8cb7085b4ccd819952d50\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\f5d1ef2d6ec8cb7085b4ccd819952d50\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Proyectos\Movil-Tarjetas-Kotlin\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
@@ -400,6 +469,62 @@ ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.gradl
 		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\c0148f92d973914434b2dd8f9bce5c9b\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 	android:name
 		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\c0148f92d973914434b2dd8f9bce5c9b\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\56f4da04f76a15d8b1027fc712cc95f0\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\fba148f2e210a05f2ec7d5e407e436cc\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8eed0830d0273b780bf46e5bd78725bf\transformed\common-18.9.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\6fd1779bcf3311a37cc7610868ec513f\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\36446426c82f60393d2501de0a93932a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\5ce8fbec597290e254ba7e9bd99e80fc\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\74dc8321957817ecb3bacf885bbe9ab6\transformed\auth-kt-debug\AndroidManifest.xml:9:9-17:20
@@ -506,3 +631,31 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\2c004f077cf510a892018f6607182924\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\2c004f077cf510a892018f6607182924\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\49d18fb3b83dc48e59c1519860b0a8d2\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Adrian\.gradle\caches\9.0.0\transforms\8966b2c8315e2e760bffc7490c2feb7e\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132

@@ -31,10 +31,14 @@ import com.loyalty.app.ui.profile.ProfileScreen
 import com.loyalty.app.ui.rewards.RewardsScreen
 import com.loyalty.app.ui.theme.*
 
+/**
+ * Clase que define las secciones de la barra de navegación inferior.
+ * Cada objeto representa una pestaña con su ruta, título e icono.
+ */
 sealed class BottomBarScreen(
-    val route: String,
-    val title: String,
-    val icon: ImageVector
+    val route: String, // Identificador único de la pantalla para la navegación
+    val title: String, // Texto que se muestra debajo del icono
+    val icon: ImageVector // Icono visual de la pestaña
 ) {
     object Home : BottomBarScreen(
         route = "home_tab",
@@ -55,21 +59,28 @@ sealed class BottomBarScreen(
     )
 }
 
+/**
+ * Pantalla contenedor que gestiona la navegación entre pestañas (Home, Premios, Perfil).
+ */
 @Composable
-fun MainScreen() {
+fun MainScreen(onLogout: () -> Unit = {}) {
+    // El navController local gestiona qué pestaña se muestra dentro de esta pantalla
     val navController = rememberNavController()
     
     Scaffold(
         bottomBar = {
+            // Mostramos la barra de navegación en la parte inferior
             BottomBar(navController = navController)
         },
         containerColor = Zinc950
     ) { paddingValues ->
+        // El contenido de la pantalla cambia según la pestaña seleccionada
         Box(modifier = Modifier.padding(paddingValues)) {
             NavHost(
                 navController = navController,
                 startDestination = BottomBarScreen.Home.route
             ) {
+                // Definimos qué Composable se dibuja para cada ruta
                 composable(BottomBarScreen.Home.route) {
                     HomeScreen()
                 }
@@ -77,13 +88,16 @@ fun MainScreen() {
                     RewardsScreen()
                 }
                 composable(BottomBarScreen.Profile.route) {
-                    ProfileScreen()
+                    ProfileScreen(onLogout = onLogout)
                 }
             }
         }
     }
 }
 
+/**
+ * Componente visual de la barra de navegación inferior.
+ */
 @Composable
 fun BottomBar(navController: NavHostController) {
     val screens = listOf(
@@ -91,6 +105,7 @@ fun BottomBar(navController: NavHostController) {
         BottomBarScreen.Rewards,
         BottomBarScreen.Profile,
     )
+    // Obtenemos la ruta actual para saber qué pestaña resaltar
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
 
@@ -101,12 +116,15 @@ fun BottomBar(navController: NavHostController) {
         modifier = Modifier.background(Zinc900)
     ) {
         screens.forEach { screen ->
+            // Comprobamos si esta pestaña es la que está activa actualmente
             val selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true
             
             NavigationBarItem(
                 selected = selected,
                 onClick = {
+                    // Al pulsar, navegamos a la pestaña correspondiente
                     navController.navigate(screen.route) {
+                        // Evita acumular muchas pantallas en el historial al cambiar de pestaña
                         popUpTo(navController.graph.findStartDestination().id) {
                             saveState = true
                         }
@@ -115,6 +133,7 @@ fun BottomBar(navController: NavHostController) {
                     }
                 },
                 icon = {
+                    // El color cambia a Ámbar si la pestaña está seleccionada
                     val iconColor = if (selected) Amber400 else Zinc700
                     Box(
                         modifier = Modifier
@@ -142,7 +161,7 @@ fun BottomBar(navController: NavHostController) {
                     )
                 },
                 colors = NavigationBarItemDefaults.colors(
-                    indicatorColor = Color.Transparent,
+                    indicatorColor = Color.Transparent, // Quitamos el círculo que pone Android por defecto
                     selectedIconColor = Amber400,
                     unselectedIconColor = Zinc700,
                     selectedTextColor = Amber400,

@@ -24,31 +24,48 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.loyalty.app.ui.home.components.LoyaltyCard
 import com.loyalty.app.ui.theme.*
 
+/**
+ * Pantalla principal que ve el usuario al entrar.
+ * Muestra el progreso de sus sellos, tarjetas completadas y el botón de escaneo.
+ */
 @Composable
 fun HomeScreen(
-    viewModel: HomeViewModel = viewModel()
+    viewModel: HomeViewModel = viewModel() // Gestor de datos para obtener sellos y nombre del usuario
 ) {
+    // Obtenemos el estado actual del usuario (sellos, nombre, etc.)
     val state by viewModel.userState.collectAsState()
     val name = state?.full_name ?: "Usuario"
     val stamps = state?.stamps ?: 0
-    val scrollState = rememberScrollState()
+    val scrollState = rememberScrollState() // Permite que la pantalla se pueda deslizar hacia abajo
+    
+    // Estado para controlar la visibilidad del escáner
+    var showScanner by remember { mutableStateOf(false) }
 
-    Scaffold(
-        bottomBar = {
-           // We could add a BottomNavigation here if needed
-        },
-        containerColor = Zinc950
+    if (showScanner) {
+        QRScannerScreen(
+            onScan = { code ->
+                // Por ahora, cualquier código QR que contenga "LOYALTY_STAMP" añade un sello
+                if (code.contains("LOYALTY_STAMP")) {
+                    viewModel.addStamp()
+                    showScanner = false
+                }
+            },
+            onClose = { showScanner = false }
+        )
+    } else {
+        Scaffold(
+        containerColor = Zinc950 // Color de fondo oscuro de la pantalla
     ) { padding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
                 .padding(horizontal = 24.dp)
-                .verticalScroll(scrollState)
+                .verticalScroll(scrollState) // Hace que el contenido sea desplazable
         ) {
             Spacer(modifier = Modifier.height(20.dp))
 
-            // Header
+            // Cabecera: Saludo al usuario y contador de premios ganados
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -67,6 +84,7 @@ fun HomeScreen(
                     )
                 }
 
+                // Insignia que muestra cuántos premios (tarjetas de 10 sellos) ha completado
                 Surface(
                     color = Amber400.copy(alpha = 0.1f),
                     border = androidx.compose.foundation.BorderStroke(1.dp, Amber400.copy(alpha = 0.2f)),
@@ -84,7 +102,7 @@ fun HomeScreen(
                             modifier = Modifier.size(16.dp)
                         )
                         Text(
-                            text = "${stamps / 5} premios",
+                            text = "${stamps / 10} premios",
                             color = Amber400,
                             fontSize = 12.sp,
                             fontWeight = FontWeight.Bold
@@ -95,14 +113,14 @@ fun HomeScreen(
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Loyalty Card
-            LoyaltyCard(currentStamps = stamps % 5)
+            // Tarjeta Visual de Fidelidad (Muestra los 10 sellos en 2 columnas)
+            LoyaltyCard(currentStamps = stamps % 10)
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Scan Button
+            // Botón principal para escanear el código QR del local
             Button(
-                onClick = { /* Open Scanner */ },
+                onClick = { showScanner = true },
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(64.dp)
@@ -115,7 +133,7 @@ fun HomeScreen(
                         .fillMaxSize()
                         .background(
                             brush = Brush.linearGradient(
-                                colors = listOf(Amber400, Amber600)
+                                colors = listOf(Amber400, Amber600) // Degradado naranja/ámbar
                             )
                         ),
                     contentAlignment = Alignment.Center
@@ -124,9 +142,8 @@ fun HomeScreen(
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
-                        // Icon(Icons.Default.QrCodeScanner, contentDescription = null, tint = Color.Black)
                         Text(
-                            text = "ESCANEAR CÓDIGO (Próximamente)",
+                            text = "ESCANEAR CÓDIGO",
                             color = Color.Black,
                             fontWeight = FontWeight.Black,
                             fontSize = 16.sp
@@ -137,7 +154,7 @@ fun HomeScreen(
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Stats
+            // Estadísticas rápidas: Total de sellos y tarjetas completas
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
@@ -148,7 +165,7 @@ fun HomeScreen(
                     modifier = Modifier.weight(1f)
                 )
                 StatBox(
-                    value = "${stamps / 5}",
+                    value = "${stamps / 10}",
                     label = "Tarjetas completadas",
                     modifier = Modifier.weight(1f)
                 )
@@ -156,7 +173,7 @@ fun HomeScreen(
 
             Spacer(modifier = Modifier.height(20.dp))
 
-            // Info Box
+            // Cuadro informativo o de felicitación
             Surface(
                 color = Zinc900.copy(alpha = 0.5f),
                 border = androidx.compose.foundation.BorderStroke(1.dp, Zinc800.copy(alpha = 0.5f)),
@@ -164,8 +181,8 @@ fun HomeScreen(
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
-                    text = if (stamps % 5 == 0 && stamps > 0) 
-                        "¡Felicidades! Muestra este código en el local para recibir tu regalo."
+                    text = if (stamps % 10 == 0 && stamps > 0) 
+                        "¡Felicidades! Has completado tu tarjeta. Reclama tu premio."
                         else "Escanea el código QR después de tu servicio para recibir un sello.",
                     color = Zinc500,
                     fontSize = 13.sp,
@@ -179,7 +196,11 @@ fun HomeScreen(
         }
     }
 }
+}
 
+/**
+ * Componente pequeño para mostrar una estadística (Número + Texto)
+ */
 @Composable
 fun StatBox(
     value: String,
